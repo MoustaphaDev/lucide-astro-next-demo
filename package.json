@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^4",
-    "@dzeio/object-util": "^1",
     "astro": "^4.16.18",
     "lucide-astro": "0.469.0",
     "lucide-astro-next": "file:lucide-astro-next-0.0.1.tgz",
