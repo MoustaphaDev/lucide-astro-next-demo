@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <div>
+      <a href="/legacy"> View legacy package demo</a>
+      <a href="/new"> View new package demo</a>
+    </div>
+</body>
+</html>
+
+
+<style>
+body {
+  @apply h-screen w-screen grid place-items-center;
+}
+
+div {
+  @apply flex gap-32;
+}
+
+a {
+  @apply text-3xl text-zinc-400 cursor-pointer hover:text-zinc-700 transition-colors;
+}
+</style>
